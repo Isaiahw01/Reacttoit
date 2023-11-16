@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "";
+import PDF from "../documentation/ThomasCalleResumeMay(2022).pdf";
 
 // Resume component
 function Resume() {
@@ -45,6 +45,12 @@ function Resume() {
             <h3>Education</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
+                odio eget est convallis ullamcorper. Duis bibendum vestibulum
+                risus, non convallis odio aliquam eu.
+              </p>
             </div>
           </Col>
         </Row>
